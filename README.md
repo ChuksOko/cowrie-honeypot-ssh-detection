@@ -1,5 +1,3 @@
-# cybersecurity-labs-bincom-academy
-Hands-on cybersecurity labs and projects - Bincom Academy Feb 2026
 # Cowrie Honeypot – Network Attack Detection Project
 
 ## Overview
