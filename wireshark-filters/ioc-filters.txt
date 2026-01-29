@@ -1,4 +1,19 @@
+# Cowrie (SSH Honeypot) – IOC Wireshark Filters
+
+# Focus port
 tcp.port == 2222
+
+# Attacker IP (Kali)
 ip.addr == 192.168.56.102
+
+# Target IP (Ubuntu Cowrie)
+ip.addr == 192.168.56.103
+
+# SYN scan behavior (Nmap-style)
 tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+# Only SYN packets to target port
+tcp.dstport == 2222 && tcp.flags.syn == 1 && tcp.flags.ack == 0
+
+# SSH traffic (may decode when applicable)
 ssh
