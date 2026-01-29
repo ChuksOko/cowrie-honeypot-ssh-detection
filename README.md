@@ -1,4 +1,4 @@
-# Cowrie Honeypot – Network Attack Detection (Bincom Academy Lab)
+# Cowrie Honeypot - Network Attack Detection (Bincom Academy Lab)
 
 ## Overview
 This project demonstrates a complete “detect + evidence + report” workflow using a Cowrie SSH honeypot. I deployed Cowrie on Ubuntu Server, simulated a network scan from Kali Linux, captured traffic in Wireshark, validated attacker activity in Cowrie logs, and produced a short incident report.
